@@ -1,0 +1,11 @@
+{
+  "name": "boot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/PedroGastao/primeiroBoot.git",
+  "author": "Pedro Gastao <pedro.gastao.14@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
