@@ -5,7 +5,11 @@
   "repository": "https://github.com/PedroGastao/primeiroBoot.git",
   "author": "Pedro Gastao <pedro.gastao.14@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   }
 }
