@@ -3,7 +3,7 @@ const LoginController = require('./Controllers/loginController');
 //importanto o login
 
 
-routes.get('/signup', LoginController.signup)
+routes.post('/signup', LoginController.signup)
 
 
 
