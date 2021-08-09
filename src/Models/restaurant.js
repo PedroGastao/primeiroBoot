@@ -14,3 +14,5 @@ const restaurant = Schema({
     twitter: String,
     dataCadastro: {type:Date, default:Date.now},
 })
+
+module.exports = mongoose.model('restaurante', restaurant);
