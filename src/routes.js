@@ -1,12 +1,9 @@
 const routes = require('express').Router();
+const LoginController = require('./Controllers/loginController');
+//importanto o login
 
 
-routes.get('/signup',(req, res)=>{
-    res.json({
-        user: "Pedro"
-    })
-})
-
+routes.get('/signup', LoginController.signup)
 
 
 
